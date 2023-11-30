@@ -1,0 +1,5 @@
+3
+}xÑ`Š   ã               @   s,   d dl Z e jjdddƒZe jjdddƒZdS )é    Nz../ÚInputzfrozen_inference_graph.pbz
+labels.txt)ÚosÚpathÚjoinÚ
+model_pathÚ
+label_path© r   r   úN/home/abdul/artivatic/BrandExposureProject/Source_Folder/ML_Pipeline/admin.pyÚ<module>   s   

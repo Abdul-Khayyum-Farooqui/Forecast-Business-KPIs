@@ -1,0 +1,16 @@
+3
+{Ñ`  ã               @   s<   d dl Zd dlZd dlZdd„ Zdd„ Zdd „ Zdd	„ Z dS )
+é    Nc             C   s,   | j \}}tj| jƒ ƒj||dfƒjtjƒS )Né   ) ÚsizeÚnpÚarrayÚ getdataÚ reshapeÚastypeÚuint8)ÚimageÚim_widthÚ	im_height© r
+   úP/home/abdul/artivatic/BrandExposureProject/Source_Folder/ML_Pipeline/utility.pyÚload_image_into_numpy_array   s    
+r   c              C   s$   t | | ƒ}t || ƒ}|| }|S )N)Úabs) Úx1Úy1Úx2Úy2ZxDiffZyDiffÚarear
+   r
+   r   Úcalculate_area   s    r   c             C   s&   | j ƒ  | d }| d }||dœ}|S )Nr   é   )ÚshortestÚ longestéÿÿÿÿ)Úsort)Z	area_listr   r   Úresponser
+   r
+   r   Úshortest_longest_area   s    r   c             C   s4   t jj| ƒr$tj| ƒ t j| dƒ nt j| dƒ d S )Nií  )ÚosÚpathÚexistsÚshutilÚrmtreeÚmakedirs)Z
+folder_pathr
+   r
+   r   Údelete_and_create_folder   s    
+r$   )Únumpyr   r   r!   r   r   r   r$   r
+   r
+   r
+   r   Ú<module>   s    
